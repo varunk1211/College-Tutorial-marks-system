@@ -1,0 +1,107 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+ <!--  <filter>
+  	<filter-name>ShowVideoControler</filter-name>
+  	<display-name>ShowVideoControler</display-name>
+  	<description></description>
+  	<filter-class>onlineCorse.Controler.ShowVideoControler</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>ShowVideoControler</filter-name>
+  	<url-pattern>/ShowVideoControler</url-pattern>
+  </filter-mapping> -->
+  <servlet>
+  	<servlet-name>LoginControler</servlet-name>
+  	<display-name>LoginControler</display-name>
+  	<description></description>
+  	<servlet-class>onlineCorse.Controler.LoginControler</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>InsertFacultyControl</servlet-name>
+  	<display-name>InsertFacultyControl</display-name>
+  	<description></description>
+  	<servlet-class>onlineCorse.Controler.InsertFacultyControl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ShowDataDepartment</servlet-name>
+  	<display-name>ShowDataDepartment</display-name>
+  	<description></description>
+  	<servlet-class>onlineCorse.Controler.ShowDataDepartment</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>InsertVideoControl</servlet-name>
+  	<display-name>InsertVideoControl</display-name>
+  	<description></description>
+  	<servlet-class>onlineCorse.Controler.InsertVideoControl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ShowDepartment</servlet-name>
+  	<display-name>ShowDepartment</display-name>
+  	<description></description>
+  	<servlet-class>onlineCorse.Controler.ShowDepartment</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ShowVideo</servlet-name>
+  	<display-name>ShowVideo</display-name>
+  	<description></description>
+  	<servlet-class>onlineCorse.Controler.ShowVideo</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ShowFacultyControl</servlet-name>
+  	<display-name>ShowFacultyControl</display-name>
+  	<description></description>
+  	<servlet-class>onlineCorse.Controler.ShowFacultyControl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ClearSession</servlet-name>
+  	<display-name>ClearSession</display-name>
+  	<description></description>
+  	<servlet-class>onlineCorse.Controler.ClearSession</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>InsertCourse</servlet-name>
+  	<display-name>InsertCourse</display-name>
+  	<description></description>
+  	<servlet-class>onlineCorse.Controler.InsertCourse</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginControler</servlet-name>
+  	<url-pattern>/LoginControler</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>InsertFacultyControl</servlet-name>
+  	<url-pattern>/InsertFacultyControl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ShowDataDepartment</servlet-name>
+  	<url-pattern>/ShowDataDepartment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>InsertVideoControl</servlet-name>
+  	<url-pattern>/InsertVideoControl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ShowDepartment</servlet-name>
+  	<url-pattern>/ShowDepartment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ShowVideo</servlet-name>
+  	<url-pattern>/ShowVideo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ShowFacultyControl</servlet-name>
+  	<url-pattern>/ShowFacultyControl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ClearSession</servlet-name>
+  	<url-pattern>/ClearSession</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>InsertCourse</servlet-name>
+  	<url-pattern>/InsertCourse</url-pattern>
+  </servlet-mapping>
+</web-app>
